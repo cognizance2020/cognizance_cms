@@ -33,7 +33,7 @@ MEDIA_URL = '/image/'
 SECRET_KEY = '-l_p92!kg)+ptgu0-83-)u=x+y+nd4vu(_f&*o2!36#@vd5sr6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['cognizance-amrita.herokuapp.com','127.0.0.1']
 
@@ -100,6 +100,7 @@ DATABASES = {
     }
 }
 
+
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 
@@ -140,7 +141,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'cognizance_cms/static')
