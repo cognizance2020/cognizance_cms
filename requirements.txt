@@ -194,6 +194,5 @@ websockets==8.1
 Werkzeug==1.0.1
 whitenoise==5.2.0
 wrapt==1.12.1
-xkit==0.0.0
 yarl==1.5.1
 zipp==1.0.0
