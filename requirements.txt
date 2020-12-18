@@ -26,7 +26,6 @@ colorhash==1.0.3
 cryptography==2.8
 cycler==0.10.0
 cymem==2.0.5
-dbus-python==1.2.16
 decorator==4.4.2
 discord==1.0.1
 discord.py==1.5.1
@@ -110,7 +109,6 @@ pycairo==1.16.2
 pycups==1.9.73
 pydot==1.4.1
 Pygments==2.3.1
-PyGObject==3.36.0
 PyJWT==1.7.1
 pykwalify==1.7.0
 pymacaroons==0.13.0
