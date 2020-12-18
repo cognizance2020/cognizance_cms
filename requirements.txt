@@ -183,7 +183,6 @@ typeguard==2.10.0
 typing-extensions==3.7.4.3
 tzlocal==2.1
 ujson==1.35
-unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7
 uvloop==0.14.0
