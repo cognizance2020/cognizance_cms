@@ -6,7 +6,6 @@ aiormq==3.3.1
 alembic==1.4.3
 appdirs==1.4.3
 APScheduler==3.6.3
-apturl==0.5.2
 asgiref==3.3.1
 astunparse==1.6.3
 async-generator==1.10
